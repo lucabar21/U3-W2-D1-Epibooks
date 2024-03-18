@@ -6,7 +6,7 @@ import CommentArea from "./CommentArea";
 class BookList extends Component {
   state = {
     searchQuery: "",
-    selected: false,
+    selected: null,
   };
 
   changeState = (newSelectedValue) => {
