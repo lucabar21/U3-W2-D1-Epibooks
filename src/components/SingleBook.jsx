@@ -9,6 +9,7 @@ const SingleBook = (props) => {
   return (
     <>
       <Card
+        data-testid="card-element"
         onClick={() => props.changeSelected(props.book.asin)}
         style={{ border: props.selected ? "3px solid red" : "none" }}
       >
